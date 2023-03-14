@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbit & The Black Hole - TODO List</title>
+  <script src="./jQuery-P.js"></script>
+  <script src="./jquery-ui.min.js"></script>
+  <style>
+    body{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      /* background-color: lightgreen; */
+    }
+    .oneTaskContainer{ 
+    }
+    ul li{
+      position: relative;
+      background-color: white; 
+      border-radius: 16px; 
+      padding: 8px; 
+      width: 100%;
+      margin: 10px;
+      margin-left: -28px;
+      direction: none;
+      display: flex; 
+      align-items: center;
+    }
+    #btnDone{
+      border: solid 1px grey;
+      border-radius: 16px; 
+      padding: 8px; 
+      right: 48px; 
+      position: absolute;
+    }
+    #btnDel{
+      border: solid 1px grey;
+      border-radius: 16px; 
+      padding: 8px; 
+      right: 0; 
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img class="blackHole" src="img/3.JPG">
+    <div id="draggable" class="ui-widget-content">
+      <img class="rabbit" src="img/2.jpg">
+      <span>Drag Me</span>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <hr style="margin-top: 500px">
+  <br>
+  <br>
+  <br>
+  <div id="listContainer">
+    <div id="carrot"></div>
+    <div id="addContainer">
+      <input id="taskAdd" name="taskAdd" type="text" placeholder="Add your Task Here">
+      <button id="addBtn">Add</button>
+    </div>
+    <div id="taskListContainer">
+      <p>No tasks yet!</p>
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <br>
+  <script src="./Jquery.js"></script>
+</body>
+</html>

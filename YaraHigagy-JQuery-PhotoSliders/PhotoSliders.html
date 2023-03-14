@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Sliders</title>
+  <style>
+    div{
+      margin: auto;
+      padding: 0;
+      /* border: 0; */
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      font-family: arial;
+    }
+    .imgContainer{
+      display: flex;
+      margin: auto;
+      /* border: solid red; */
+      overflow: hidden;
+      width: 300px;
+      height: 300px;
+    }
+    .imgContainer img{
+      position: absolute;
+      margin: auto;
+      width: 300px;
+      height: 300px;
+    }
+    .image{
+      position: absolute;
+      margin: auto;
+      width: 300px;
+      height: 300px;
+    }
+    .stop{
+      display: flex;
+      margin: auto;
+      /* position: relative; */
+      background-color: rgb(97, 169, 252);
+      color: white;
+      width: 70px;
+      padding: 8px;
+      border: none;
+      border-radius: 6px;
+      /* text-align: center; */
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2 style="text-align: center;">Task_1</h2>
+    <div>
+      <div class="imgContainer">
+        <img src="img/1.jpg">
+        <!-- <img class="image1" src="img/1.jpg" style="z-index: 0;">
+        <img class="image2" src="img/2.jpg" style="z-index: -10;">
+        <img class="image3" src="img/3.jpg" style="z-index: -20;">
+        <img class="image4" src="img/4.jpg" style="z-index: -30;">
+        <img class="image5" src="img/5.jpg" style="z-index: -40;">
+        <img class="image6" src="img/6.jpg" style="z-index: -50;">
+        <img class="image7" src="img/7.jpg" style="z-index: -60;">
+        <img class="image8" src="img/8.jpg" style="z-index: -70;"> -->
+      </div>
+      <button class="stop">Stop</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <div>
+    <h2 style="text-align: center;">Task_2</h2>
+    <div class="cardsContainer">
+    <div>
+      <img class="img1" src="img/6.jpg">
+      <h4>Web Design</h4>
+      <p class="p1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus id nihil voluptatem minus incidunt illum dolore laudantium quos doloremque rerum ad officia adipisci, aperiam rem saepe asperiores eaque nobis dolor?
+      </p>
+    </div>
+    <div>
+      <img class="img2" src="img/7.jpg">
+      <h4>E-Commerce</h4>
+      <p class="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates cumque tempore corrupti, qui aperiam minima fuga numquam? Quas provident earum magnam, necessitatibus iste qui explicabo repudiandae similique. Facilis, adipisci?
+      </p>
+    </div>
+    <div>
+      <img class="img3" src="img/8.jpg">
+      <h4>SEO</h4>
+      <p class="p3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deserunt, est sunt soluta, veniam commodi distinctio nesciunt error earum velit molestias nobis et! Ea reiciendis dolorum fuga sint debitis aut!
+      </p>
+    </div>
+    </div>
+  </div>
+
+  <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Jquery.js"></script>
+</body>
+</html>
